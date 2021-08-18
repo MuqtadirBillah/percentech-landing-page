@@ -1,0 +1,845 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body button:focus {
+  outline: 0;
+}
+
+body input:focus {
+  outline: 0;
+}
+
+body .App .navigation .navbar {
+  background-color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #01cee3;
+}
+
+body .App .navigation .navbar .container-fluid .navbar-brand .company-logo {
+  width: 40px;
+}
+
+body .App .navigation .navbar .container-fluid .navbar-brand .company-name {
+  color: #01cee3;
+  display: inline;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav {
+  margin-left: auto;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav .nav-item {
+  font-size: large;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #01cee3;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav .nav-item .active {
+  color: #01cee3;
+  border-bottom: 2px solid #01cee3;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item {
+  height: 91vh;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide {
+  height: 100%;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  padding: 50px 20%;
+  padding-top: 25vh;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h1 {
+  color: #ffbd0f;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h5 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter button {
+  background-color: #01cee3;
+  border: 0px;
+  height: 50px;
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+}
+
+body .App .about .container-fluid {
+  padding-left: 0;
+}
+
+body .App .about .container-fluid .row .aboutLeft img {
+  width: 100%;
+  height: 100%;
+}
+
+body .App .about .container-fluid .row .aboutRight {
+  padding: 20px 30px;
+  font-family: Raleway, sans-serif;
+}
+
+body .App .about .container-fluid .row .aboutRight h1 {
+  color: #01cee3;
+}
+
+body .App .about .container-fluid .row .aboutRight h5 {
+  line-height: 30px;
+}
+
+body .App .services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0f0f0f;
+}
+
+body .App .services .heading {
+  text-align: center;
+  margin-bottom: 100px;
+  color: #01cee3;
+  font-size: 50px;
+}
+
+body .App .services .container .row .coll {
+  padding: 0 20px;
+  margin: 0;
+}
+
+body .App .services .container .row .coll .card {
+  -webkit-box-shadow: 10px 10px 15px 2px black;
+          box-shadow: 10px 10px 15px 2px black;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+body .App .services .container .row .coll .card img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+body .App .services .container .row .coll .card .card-body {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: black;
+  border: 2px solid black;
+}
+
+body .App .services .container .row .coll .card .card-body .card-title {
+  color: #01cee3;
+}
+
+body .App .services .container .row .coll .card .card-body .card-text {
+  color: white;
+}
+
+body .App .services .container .row .coll .card .card-body a {
+  background-color: black;
+  color: #01cee3;
+  border: 1px solid #01cee3;
+  font-weight: 600;
+}
+
+body .App .services .container .row .coll .card .card-body a:hover {
+  background-color: #01cee3;
+  color: black;
+  font-weight: 600;
+}
+
+body .App .services .container .row .coll .card:hover {
+  -webkit-box-shadow: 0px 0px 15px 15px black;
+          box-shadow: 0px 0px 15px 15px black;
+}
+
+body .App .services .container .row .coll .card:hover .card-body {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: black;
+  border: 2px solid black;
+}
+
+body .App .services .container .row .coll .card:hover .card-body .card-title {
+  color: #01cee3;
+}
+
+body .App .services .container .row .coll .card:hover .card-body .card-text {
+  color: white;
+}
+
+body .App .services .container .row .coll .card:hover .card-body a {
+  background-color: black;
+  color: #01cee3;
+  border: 1px solid #01cee3;
+  font-weight: 600;
+}
+
+body .App .services .container .row .coll .card:hover .card-body a:hover {
+  background-color: #01cee3;
+  color: black;
+  font-weight: 600;
+}
+
+body .App .client {
+  padding: 50px 0;
+}
+
+body .App .client h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+body .App .client .container .row img {
+  width: 100%;
+  height: 100%;
+}
+
+body .App .contact {
+  background: #222222;
+  padding: 50px 0;
+}
+
+body .App .contact h1 {
+  color: white;
+  text-align: center;
+}
+
+body .App .contact h4 {
+  color: #02c1d6;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+body .App .contact .contactForm {
+  text-align: center;
+  width: 60%;
+  padding: 20px 100px;
+  margin: 0 auto;
+}
+
+body .App .contact .contactForm input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background: #363636;
+  border: 2px solid black;
+  color: white;
+}
+
+body .App .contact .contactForm textarea {
+  width: 500px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  background: #363636;
+  border: 2px solid black;
+  color: white;
+}
+
+body .App .contact .contactForm .contactWarning {
+  text-align: left;
+  margin-bottom: 5px;
+  color: red;
+}
+
+body .App .contact .contactForm button {
+  width: 500px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #01cee3;
+  color: black;
+  font-weight: 500;
+  border: 2px solid #01cee3;
+  padding: 5px 10px;
+}
+
+body .App .footer {
+  padding: 50px 0;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+body .App .footer .container .row .footerLeft {
+  padding-top: 20px;
+}
+
+body .App .footer .container .row .footerLeft img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+body .App .footer .container .row .footerRight .newsletter {
+  padding-bottom: 50px;
+}
+
+body .App .footer .container .row .footerRight .newsletter .newsHead {
+  padding-top: 15px;
+}
+
+body .App .footer .container .row .footerRight .newsletter .newsIn {
+  padding: 0;
+}
+
+body .App .footer .container .row .footerRight .newsletter .newsIn input {
+  padding: 10px 50px;
+  width: 100%;
+  border: 2px solid #222222;
+  background-color: #222222;
+  color: white;
+}
+
+body .App .footer .container .row .footerRight .newsletter .newsBut {
+  padding: 0;
+}
+
+body .App .footer .container .row .footerRight .newsletter .newsBut button {
+  padding: 10px 20px;
+  width: 100%;
+  border: 2px solid #db3838;
+  background-color: #db3838;
+  color: white;
+  font-weight: 500;
+}
+
+body .App .footer .container .row .footerRight .newsletter .newsBut button:hover {
+  border: 2px solid #d32525;
+  background-color: #d32525;
+}
+
+body .App .footer .container .row .footerRight .footerBot h5 {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+body .App .footer .container .row .footerRight .footerBot a {
+  color: #949494;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+body .App .footer .container .row .footerRight .footerBot a:hover {
+  color: white;
+}
+
+body .App .footer .container .row .footerRight .footerBot .footerContact p {
+  color: #949494;
+  text-align: left;
+  margin-top: 20px;
+}
+
+body .App .footer .container .row .footerRight .footerBot .footerContact p i {
+  color: white;
+}
+
+body .App .footer hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body .App .footer p {
+  text-align: center;
+}
+
+/* Bootstrap container x-large screen size */
+@media only screen and (max-width: 1200px) {
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item {
+    height: 91vh;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide {
+    height: 100%;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding: 30px 20%;
+    padding-top: 25vh;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h1 {
+    color: #ffbd0f;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h5 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter button {
+    background-color: #01cee3;
+    border: 0px;
+    height: 50px;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  body .App .contact {
+    background: #222222;
+    padding: 50px 0;
+  }
+  body .App .contact h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  body .App .contact .contactForm {
+    text-align: center;
+    width: 80%;
+    padding: 20px 50px;
+    margin: 0 auto;
+  }
+  body .App .contact .contactForm input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background: #363636;
+    border: 2px solid black;
+    color: white;
+  }
+  body .App .contact .contactForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: #363636;
+    border: 2px solid black;
+    color: white;
+  }
+  body .App .contact .contactForm button {
+    width: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #01cee3;
+    color: black;
+    font-weight: 500;
+    border: 2px solid #01cee3;
+    padding: 5px 10px;
+  }
+}
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item {
+    height: 91vh;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide {
+    height: 100%;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding: 50px 20%;
+    padding-top: 25vh;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h1 {
+    color: #ffbd0f;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h5 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter button {
+    background-color: #01cee3;
+    border: 0px;
+    height: 50px;
+    color: black;
+    padding: 5px 20px;
+    font-weight: bold;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  body .App .footer {
+    padding: 50px 0;
+    background-color: #0f0f0f;
+    color: white;
+  }
+  body .App .footer .container .row .footerLeft {
+    padding-top: 20px;
+  }
+  body .App .footer .container .row .footerLeft img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  body .App .footer .container .row .footerRight .newsletter {
+    padding-bottom: 50px;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsHead {
+    padding-top: 15px;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsIn {
+    padding: 0;
+    margin-top: 30px;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsIn input {
+    padding: 10px 50px;
+    width: 100%;
+    border: 2px solid #222222;
+    background-color: #222222;
+    color: white;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsBut {
+    padding: 0;
+    width: 100%;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsBut button {
+    padding: 10px 20px;
+    width: 100%;
+    border: 2px solid #db3838;
+    background-color: #db3838;
+    color: white;
+    font-weight: 500;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsBut button:hover {
+    border: 2px solid #d32525;
+    background-color: #d32525;
+  }
+  body .App .footer .container .row .footerRight .footerBot h5 {
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+  body .App .footer .container .row .footerRight .footerBot a {
+    color: #949494;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  body .App .footer .container .row .footerRight .footerBot a:hover {
+    color: white;
+  }
+  body .App .footer .container .row .footerRight .footerBot .footerContact p {
+    color: #949494;
+    text-align: left;
+    margin-top: 20px;
+  }
+  body .App .footer .container .row .footerRight .footerBot .footerContact p i {
+    color: white;
+  }
+  body .App .footer hr {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  body .App .footer p {
+    text-align: center;
+  }
+}
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item {
+    height: auto;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide {
+    height: 100%;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding: 100px 80px;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h1 {
+    color: #ffbd0f;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h5 {
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter button {
+    background-color: #01cee3;
+    border: 0px;
+    height: 40px;
+    color: black;
+    padding: 5px 20px;
+    font-weight: bold;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  body .App .contact {
+    background: #222222;
+    padding: 50px 0;
+  }
+  body .App .contact h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  body .App .contact .contactForm {
+    text-align: center;
+    width: 90%;
+    padding: 20px 50px;
+    margin: 0 auto;
+  }
+  body .App .contact .contactForm input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background: #363636;
+    border: 2px solid black;
+    color: white;
+  }
+  body .App .contact .contactForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: #363636;
+    border: 2px solid black;
+    color: white;
+  }
+  body .App .contact .contactForm button {
+    width: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #01cee3;
+    color: black;
+    font-weight: 500;
+    border: 2px solid #01cee3;
+    padding: 5px 10px;
+  }
+  body .App .footer {
+    padding: 50px 0;
+    background-color: #0f0f0f;
+    color: white;
+  }
+  body .App .footer .container .row .footerLeft {
+    padding-top: 20px;
+  }
+  body .App .footer .container .row .footerLeft img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  body .App .footer .container .row .footerRight .newsletter {
+    padding-bottom: 50px;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsHead {
+    padding-top: 15px;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsIn {
+    padding: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsIn input {
+    padding: 10px 50px;
+    width: 100%;
+    border: 2px solid #222222;
+    background-color: #222222;
+    color: white;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsBut {
+    padding: 0;
+    width: 100%;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsBut button {
+    padding: 10px 20px;
+    width: 100%;
+    border: 2px solid #db3838;
+    background-color: #db3838;
+    color: white;
+    font-weight: 500;
+  }
+  body .App .footer .container .row .footerRight .newsletter .newsBut button:hover {
+    border: 2px solid #d32525;
+    background-color: #d32525;
+  }
+  body .App .footer .container .row .footerRight .footerBot h5 {
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+  body .App .footer .container .row .footerRight .footerBot a {
+    color: #949494;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  body .App .footer .container .row .footerRight .footerBot a:hover {
+    color: white;
+  }
+  body .App .footer .container .row .footerRight .footerBot .footerContact p {
+    color: #949494;
+    text-align: left;
+    margin-top: 20px;
+  }
+  body .App .footer .container .row .footerRight .footerBot .footerContact p i {
+    color: white;
+  }
+  body .App .footer hr {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  body .App .footer p {
+    text-align: center;
+  }
+}
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+  body .App .contact {
+    background: #222222;
+    padding: 50px 0;
+  }
+  body .App .contact h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  body .App .contact .contactForm {
+    text-align: center;
+    width: 100%;
+    padding: 20px 30px;
+    margin: 0 auto;
+  }
+  body .App .contact .contactForm input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background: #363636;
+    border: 2px solid black;
+    color: white;
+  }
+  body .App .contact .contactForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: #363636;
+    border: 2px solid black;
+    color: white;
+  }
+  body .App .contact .contactForm button {
+    width: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #01cee3;
+    color: black;
+    font-weight: 500;
+    border: 2px solid #01cee3;
+    padding: 5px 10px;
+  }
+}
+
+/* Bootstrap Container Extra small Size Screen */
+@media only screen and (max-width: 410px) {
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item {
+    height: auto;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide {
+    height: 100%;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding: 100px 50px;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h1 {
+    color: #ffbd0f;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h5 {
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter button {
+    background-color: #01cee3;
+    border: 0px;
+    height: 40px;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  body .App .mainCarousel .carousel .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  body .App .contact {
+    background: #222222;
+    padding: 50px 0;
+  }
+  body .App .contact h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  body .App .contact .contactForm {
+    text-align: center;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 0 auto;
+  }
+  body .App .contact .contactForm input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background: #363636;
+    border: 2px solid black;
+    color: white;
+  }
+  body .App .contact .contactForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: #363636;
+    border: 2px solid black;
+    color: white;
+  }
+  body .App .contact .contactForm button {
+    width: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #01cee3;
+    color: black;
+    font-weight: 500;
+    border: 2px solid #01cee3;
+    padding: 5px 10px;
+  }
+}
+/*# sourceMappingURL=design.css.map */

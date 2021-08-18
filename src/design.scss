@@ -1,0 +1,1051 @@
+$Primary-color: #01cee3;
+$Yellow: #ffbd0f;
+$Dark-cyan: #02c1d6;
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    button:focus {
+        outline:0;
+    }
+    input:focus {
+        outline:0;
+    }
+    .App{
+        .navigation{
+            .navbar{
+                background-color: #000000;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid $Primary-color;
+                .container-fluid{
+                    .navbar-brand{
+                        .company-logo{
+                            width: 40px;
+                        }
+                        .company-name{
+                            color: #01cee3;
+                            display: inline;
+                            font-weight: 600;
+                            font-size: 25px;
+                            margin-left: 10px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .navbar-toggler{
+
+                        .navbar-toggler-icon{
+                        
+                        }
+                    }
+                    .collapse{
+                        // ul
+                        .navbar-nav{
+                            margin-left: auto;
+                            // li
+                            .nav-item{
+                                font-size: large;
+                                // a
+                                .nav-link{
+                                    color: white;
+                                }
+                                .nav-link:hover{
+                                    color: $Primary-color;
+                                }
+                                .active{
+                                    color: $Primary-color;
+                                    border-bottom: 2px solid $Primary-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .mainCarousel{
+            .carousel{
+                .carousel-indicators{
+                    button{
+
+                    }
+                }
+                .carousel-inner{
+                    .carousel-item{
+                        height: 91vh;
+                        .slide{
+                            height: 100%;
+                            .filter{
+                                text-align: center;
+                                background-color: rgba(0, 0, 0, 0.6);
+                                height: 100%;
+                                padding: 50px 20%;
+                                padding-top: 25vh;
+                                h1{
+                                    color: $Yellow;
+                                    font-size: 80px;
+                                    font-weight: 700;
+                                    margin-bottom: 20px;
+                                }
+                                h5{
+                                    color: white;
+                                    font-size: 30px;
+                                    margin-bottom: 50px;
+                                }
+                                button{
+                                    background-color: $Primary-color;
+                                    border: 0px;
+                                    height: 50px;
+                                    color: black;
+                                    padding: 10px 20px;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                        img{
+                            width: 100%;    
+                        }
+                    }
+                    .active{
+
+                    }
+                }
+                // Previous Button
+                .carousel-control-prev{
+                    .carousel-control-prev-icon{
+
+                    }
+                    .visually-hidden{
+
+                    }
+                }
+            }
+        }
+
+        .about{
+            .container-fluid{
+                padding-left: 0;
+                .row{
+                    .aboutLeft{
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .aboutRight{
+                        // margin-top: 25vh;
+                        padding: 20px 30px;
+                        font-family: Raleway, sans-serif;
+                        h1{
+                            color: $Primary-color;
+                        }
+                        h5{
+                            line-height: 30px;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+
+        .services{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #0f0f0f;
+            .heading{
+                text-align: center;
+                margin-bottom: 100px;
+                color: $Primary-color;
+                font-size: 50px;
+            }
+            .container{
+                .row{
+                    .coll{
+                        padding: 0 20px;
+                        margin: 0;
+                        .card{
+                            box-shadow: 10px 10px 15px 2px rgb(0, 0, 0);
+                            border-radius: 5px;
+                            margin-bottom: 30px;
+                            // border: 2px solid $Primary-color;
+                            img{
+                                border-top-right-radius: 5px;
+                                border-top-left-radius: 5px;
+                            }
+                            .card-body{
+                                border-bottom-right-radius: 5px;
+                                border-bottom-left-radius: 5px;
+                                background-color: black;
+                                border: 2px solid black;
+                                .card-title{
+                                    color: $Primary-color;
+                                }
+                                .card-text{
+                                    color: white;
+                                }
+                                a{
+                                    background-color: black;
+                                    color: $Primary-color;
+                                    border: 1px solid $Primary-color;
+                                    font-weight: 600;
+                                }
+                                a:hover{
+                                    background-color: $Primary-color;
+                                    color: black;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                        .card:hover{
+                            box-shadow: 0px 0px 15px 15px black;
+                            .card-body{
+                                border-bottom-right-radius: 5px;
+                                border-bottom-left-radius: 5px;
+                                background-color: black;
+                                border: 2px solid black;
+                                .card-title{
+                                    color: $Primary-color;
+                                }
+                                .card-text{
+                                    color: white;
+                                }
+                                a{
+                                    background-color: black;
+                                    color: $Primary-color;
+                                    border: 1px solid $Primary-color;
+                                    font-weight: 600;
+                                }
+                                a:hover{
+                                    background-color: $Primary-color;
+                                    color: black;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .client{
+            padding: 50px 0;
+            h1{
+                text-align: center;
+                font-size: 50px;
+                margin-bottom: 40px;
+                font-weight: 700;
+            }
+            .container{
+                .row{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+
+        .contact{
+            background: #222222;
+            padding: 50px 0;
+            h1{
+                color: white;
+                text-align: center;
+            }
+            h4{
+                color: $Dark-cyan;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            .contactForm{
+                text-align: center;
+                width: 60%;
+                padding: 20px 100px;
+                margin: 0 auto;
+                input{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    padding: 5px 10px;
+                    background: #363636;
+                    border: 2px solid black;
+                    color: white;
+                }
+                textarea{
+                    width: 500px;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    padding: 8px 10px;
+                    background: #363636;
+                    border: 2px solid black;
+                    color: white;
+                }
+                .contactWarning{
+                    text-align: left;
+                    margin-bottom: 5px;
+                    color: red;
+                }
+                button{
+                    width: 500px;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    background-color: $Primary-color;
+                    color: black;
+                    font-weight: 500;
+                    border: 2px solid $Primary-color;
+                    padding: 5px 10px;
+                }
+            }
+        }
+
+        .footer{
+            padding: 50px 0;
+            background-color: #0f0f0f;
+            color: white;
+            .container{
+                .row{
+                    .footerLeft{
+                        padding-top: 20px;
+                        img{
+                            width: 100px;
+                            border-radius: 50%;
+                            margin-bottom: 30px;
+                        }
+                        p{
+
+                        }
+                    }
+                    .footerRight{
+                        // padding: 0px 50px;
+                        // border: 1px solid white;
+                        .newsletter{
+                            padding-bottom: 50px;
+                            .newsHead{
+                                padding-top: 15px;
+                            }
+                            .newsIn{
+                                padding: 0;
+                                input{
+                                    padding: 10px 50px;
+                                    width: 100%;
+                                    border: 2px solid #222222;
+                                    // border: 2px solid #db3838;
+                                    background-color: #222222;
+                                    color: white;
+                                }
+                            }
+                            .newsBut{
+                                padding: 0;
+                                button{
+                                    padding: 10px 20px;
+                                    // height: 100%;
+                                    width: 100%;
+                                    border: 2px solid #db3838;
+                                    background-color: #db3838;
+                                    color: white;
+                                    font-weight: 500;
+                                }
+                                button:hover{
+                                    border: 2px solid rgb(211, 37, 37);
+                                    background-color: rgb(211, 37, 37);
+                                }
+                            }
+                        }
+                        .footerBot{
+                            h5{
+                                font-weight: bold;
+                                padding-bottom: 15px;
+                            }
+                            a{
+                                color: rgb(148, 148, 148);
+                                text-decoration: none;
+                                font-weight: 500;
+                            }
+                            a:hover{
+                                color: white;
+                            }
+                            .footerContact{
+                                p{
+                                    color: rgb(148, 148, 148);
+                                    text-align: left;
+                                    margin-top: 20px;
+                                    i{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            hr{
+                width: 80%;
+                margin: 0 auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+// Media Query 
+
+
+
+/* Bootstrap container x-large screen size */
+@media only screen and (max-width: 1200px) {
+
+    body{
+        .App{
+
+            .mainCarousel{
+                .carousel{
+                    .carousel-indicators{
+                        button{
+    
+                        }
+                    }
+                    .carousel-inner{
+                        .carousel-item{
+                            height: 91vh;
+                            .slide{
+                                height: 100%;
+                                .filter{
+                                    text-align: center;
+                                    background-color: rgba(0, 0, 0, 0.6);
+                                    height: 100%;
+                                    padding: 30px 20%;
+                                    padding-top: 25vh;
+                                    h1{
+                                        color: $Yellow;
+                                        font-size: 60px;
+                                        font-weight: 700;
+                                        margin-bottom: 20px;
+                                    }
+                                    h5{
+                                        color: white;
+                                        font-size: 25px;
+                                        margin-bottom: 50px;
+                                    }
+                                    button{
+                                        background-color: $Primary-color;
+                                        border: 0px;
+                                        height: 50px;
+                                        color: black;
+                                        padding: 10px 20px;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                            img{
+                                width: 100%;    
+                            }
+                        }
+                        .active{
+    
+                        }
+                    }
+                    // Previous Button
+                    .carousel-control-prev{
+                        .carousel-control-prev-icon{
+    
+                        }
+                        .visually-hidden{
+    
+                        }
+                    }
+                }
+            }
+
+
+            // contact 
+            .contact{
+                background: #222222;
+                padding: 50px 0;
+                h1{
+                    color: white;
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+                .contactForm{
+                    text-align: center;
+                    width: 80%;
+                    padding: 20px 50px;
+                    margin: 0 auto;
+                    input{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 5px 10px;
+                        background: #363636;
+                        border: 2px solid black;
+                        color: white;
+                    }
+                    textarea{
+                        // width: 500px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 8px 10px;
+                        background: #363636;
+                        border: 2px solid black;
+                        color: white;
+                    }
+                    button{
+                        width: 500px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        background-color: $Primary-color;
+                        color: black;
+                        font-weight: 500;
+                        border: 2px solid $Primary-color;
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }        
+    }
+
+
+}
+
+
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+    
+    body{
+        .App{
+
+            .mainCarousel{
+                .carousel{
+                    .carousel-indicators{
+                        button{
+    
+                        }
+                    }
+                    .carousel-inner{
+                        .carousel-item{
+                            height: 91vh;
+                            .slide{
+                                height: 100%;
+                                .filter{
+                                    text-align: center;
+                                    background-color: rgba(0, 0, 0, 0.6);
+                                    height: 100%;
+                                    padding: 50px 20%;
+                                    padding-top: 25vh;
+                                    h1{
+                                        color: $Yellow;
+                                        font-size: 50px;
+                                        font-weight: 700;
+                                        margin-bottom: 20px;
+                                    }
+                                    h5{
+                                        color: white;
+                                        font-size: 30px;
+                                        margin-bottom: 50px;
+                                    }
+                                    button{
+                                        background-color: $Primary-color;
+                                        border: 0px;
+                                        height: 50px;
+                                        color: black;
+                                        padding: 5px 20px;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                            img{
+                                width: 100%;    
+                            }
+                        }
+                        .active{
+    
+                        }
+                    }
+                    // Previous Button
+                    .carousel-control-prev{
+                        .carousel-control-prev-icon{
+    
+                        }
+                        .visually-hidden{
+    
+                        }
+                    }
+                }
+            }
+
+            // footer 
+            .footer{
+                padding: 50px 0;
+                background-color: #0f0f0f;
+                color: white;
+                .container{
+                    .row{
+                        .footerLeft{
+                            padding-top: 20px;
+                            img{
+                                width: 100px;
+                                border-radius: 50%;
+                                margin-bottom: 30px;
+                            }
+                            p{
+    
+                            }
+                        }
+                        .footerRight{
+                            // padding: 0px 50px;
+                            // border: 1px solid white;
+                            .newsletter{
+                                padding-bottom: 50px;
+                                .newsHead{
+                                    padding-top: 15px;
+                                }
+                                .newsIn{
+                                    padding: 0;
+                                    margin-top: 30px;
+                                    input{
+                                        padding: 10px 50px;
+                                        width: 100%;
+                                        border: 2px solid #222222;
+                                        // border: 2px solid #db3838;
+                                        background-color: #222222;
+                                        color: white;
+                                    }
+                                }
+                                .newsBut{
+                                    padding: 0;
+                                    width: 100%;
+                                    button{
+                                        padding: 10px 20px;
+                                        // height: 100%;
+                                        width: 100%;
+                                        border: 2px solid #db3838;
+                                        background-color: #db3838;
+                                        color: white;
+                                        font-weight: 500;
+                                    }
+                                    button:hover{
+                                        border: 2px solid rgb(211, 37, 37);
+                                        background-color: rgb(211, 37, 37);
+                                    }
+                                }
+                            }
+                            .footerBot{
+                                h5{
+                                    font-weight: bold;
+                                    padding-bottom: 15px;
+                                }
+                                a{
+                                    color: rgb(148, 148, 148);
+                                    text-decoration: none;
+                                    font-weight: 500;
+                                }
+                                a:hover{
+                                    color: white;
+                                }
+                                .footerContact{
+                                    p{
+                                        color: rgb(148, 148, 148);
+                                        text-align: left;
+                                        margin-top: 20px;
+                                        i{
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                hr{
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}
+
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+
+    body{
+        .App{
+
+            // main carousel 
+            
+            .mainCarousel{
+                .carousel{
+                    .carousel-indicators{
+                        button{
+
+                        }
+                    }
+                    .carousel-inner{
+                        .carousel-item{
+                            height: auto;
+                            .slide{
+                                height: 100%;
+                                .filter{
+                                    background-color: rgba(0, 0, 0, 0.6);
+                                    height: 100%;
+                                    padding: 100px 80px;
+                                    h1{
+                                        color: $Yellow;
+                                        font-size: 50px;
+                                        font-weight: 700;
+                                    }
+                                    h5{
+                                        color: white;
+                                        font-size: medium;
+                                        font-weight: 400;
+                                        margin-bottom: 30px;
+                                    }
+                                    button{
+                                        background-color: $Primary-color;
+                                        border: 0px;
+                                        height: 40px;
+                                        color: black;
+                                        padding: 5px 20px;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                            img{
+                                width: 100%;    
+                            }
+                        }
+                        .active{
+
+                        }
+                    }
+                    // Previous Button
+                    .carousel-control-prev{
+                        .carousel-control-prev-icon{
+
+                        }
+                        .visually-hidden{
+
+                        }
+                    }
+                }
+            }
+
+            // contact 
+            .contact{
+                background: #222222;
+                padding: 50px 0;
+                h1{
+                    color: white;
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+                .contactForm{
+                    text-align: center;
+                    width: 90%;
+                    padding: 20px 50px;
+                    margin: 0 auto;
+                    input{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 5px 10px;
+                        background: #363636;
+                        border: 2px solid black;
+                        color: white;
+                    }
+                    textarea{
+                        // width: 500px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 8px 10px;
+                        background: #363636;
+                        border: 2px solid black;
+                        color: white;
+                    }
+                    button{
+                        width: 500px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        background-color: $Primary-color;
+                        color: black;
+                        font-weight: 500;
+                        border: 2px solid $Primary-color;
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+            // footer 
+            .footer{
+                padding: 50px 0;
+                background-color: #0f0f0f;
+                color: white;
+                .container{
+                    .row{
+                        .footerLeft{
+                            padding-top: 20px;
+                            img{
+                                width: 100px;
+                                border-radius: 50%;
+                                margin-bottom: 30px;
+                            }
+                            p{
+    
+                            }
+                        }
+                        .footerRight{
+                            // padding: 0px 50px;
+                            // border: 1px solid white;
+                            .newsletter{
+                                padding-bottom: 50px;
+                                .newsHead{
+                                    padding-top: 15px;
+                                }
+                                .newsIn{
+                                    padding: 0;
+                                    margin-top: 30px;
+                                    width: 100%;
+                                    input{
+                                        padding: 10px 50px;
+                                        width: 100%;
+                                        border: 2px solid #222222;
+                                        // border: 2px solid #db3838;
+                                        background-color: #222222;
+                                        color: white;
+                                    }
+                                }
+                                .newsBut{
+                                    padding: 0;
+                                    width: 100%;
+                                    button{
+                                        padding: 10px 20px;
+                                        // height: 100%;
+                                        width: 100%;
+                                        border: 2px solid #db3838;
+                                        background-color: #db3838;
+                                        color: white;
+                                        font-weight: 500;
+                                    }
+                                    button:hover{
+                                        border: 2px solid rgb(211, 37, 37);
+                                        background-color: rgb(211, 37, 37);
+                                    }
+                                }
+                            }
+                            .footerBot{
+                                h5{
+                                    font-weight: bold;
+                                    padding-bottom: 15px;
+                                }
+                                a{
+                                    color: rgb(148, 148, 148);
+                                    text-decoration: none;
+                                    font-weight: 500;
+                                }
+                                a:hover{
+                                    color: white;
+                                }
+                                .footerContact{
+                                    p{
+                                        color: rgb(148, 148, 148);
+                                        text-align: left;
+                                        margin-top: 20px;
+                                        i{
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                hr{
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+    body{
+        .App{
+            
+            // contact 
+            .contact{
+                background: #222222;
+                padding: 50px 0;
+                h1{
+                    color: white;
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+                .contactForm{
+                    text-align: center;
+                    width: 100%;
+                    padding: 20px 30px;
+                    margin: 0 auto;
+                    input{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 5px 10px;
+                        background: #363636;
+                        border: 2px solid black;
+                        color: white;
+                    }
+                    textarea{
+                        // width: 500px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 8px 10px;
+                        background: #363636;
+                        border: 2px solid black;
+                        color: white;
+                    }
+                    button{
+                        width: 500px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        background-color: $Primary-color;
+                        color: black;
+                        font-weight: 500;
+                        border: 2px solid $Primary-color;
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Bootstrap Container Extra small Size Screen */
+@media only screen and (max-width: 410px) {
+    body{
+        .App{
+            
+            // main carousel s
+            .mainCarousel{
+                .carousel{
+                    .carousel-indicators{
+                        button{
+
+                        }
+                    }
+                    .carousel-inner{
+                        .carousel-item{
+                            height: auto;
+                            .slide{
+                                height: 100%;
+                                .filter{
+                                    background-color: rgba(0, 0, 0, 0.6);
+                                    height: 100%;
+                                    padding: 100px 50px;
+                                    h1{
+                                        color: $Yellow;
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                    }
+                                    h5{
+                                        color: white;
+                                        font-size: small;
+                                        font-weight: 400;
+                                        margin-bottom: 30px;
+                                    }
+                                    button{
+                                        background-color: $Primary-color;
+                                        border: 0px;
+                                        height: 40px;
+                                        color: black;
+                                        padding: 10px 20px;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                            img{
+                                width: 100%;    
+                            }
+                        }
+                        .active{
+
+                        }
+                    }
+                    // Previous Button
+                    .carousel-control-prev{
+                        .carousel-control-prev-icon{
+
+                        }
+                        .visually-hidden{
+
+                        }
+                    }
+                }
+            }
+            // contact 
+            .contact{
+                background: #222222;
+                padding: 50px 0;
+                h1{
+                    color: white;
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+                .contactForm{
+                    text-align: center;
+                    width: 100%;
+                    padding: 20px 10px;
+                    margin: 0 auto;
+                    input{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 5px 10px;
+                        background: #363636;
+                        border: 2px solid black;
+                        color: white;
+                    }
+                    textarea{
+                        // width: 500px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        padding: 8px 10px;
+                        background: #363636;
+                        border: 2px solid black;
+                        color: white;
+                    }
+                    button{
+                        width: 500px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        background-color: $Primary-color;
+                        color: black;
+                        font-weight: 500;
+                        border: 2px solid $Primary-color;
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
